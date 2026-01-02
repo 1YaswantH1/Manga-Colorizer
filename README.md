@@ -37,11 +37,6 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 ## Client Usage Instructions | PC | Firefox: 
 0. Open the server URL:
    - Use localhost (local-hosting) (https://127.0.0.1:5000) or,
-   - Private IP (local-hosting) (Ex. https://x.x.x.x:5000) or,
-   - The ngrokURL (online-hosting) (Ex. https://314-1342-142-43.ngrok-free.app).
-      - It will show some certificate warning, as it is self-signed.
-      - Click 'Advanced' and click 'Accept the risk and continue'.
-      - You should now see 'Manga Colorizer is Up and Running!'
 1. Open the firefox <a href="about:debugging#/runtime/this-firefox">debugging</a> page and click 'Load Temporary Add-on'.
 2. Navigate to the Frontend-Firefox directory and choose manifest.json.
 3. If the extension loads correctly, you will see it's settings page.
@@ -59,12 +54,7 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 
 ## Client Usage Instructions | PC | Chrome/Brave/Any-Chromium: 
 0. Open the server URL:
-   - Use localhost (local-hosting) (https://127.0.0.1:5000) or,
-   - Private IP (local-hosting) (Ex. https://x.x.x.x:5000) or,
-   - The ngrokURL (online-hosting) (Ex. https://314-1342-142-43.ngrok-free.app).
-     - It will show some certificate warning, as it is self-signed.
-     - Click 'Advanced' and click 'Proceed to x.x.x.x (unsafe)'.
-     - You should now see 'Manga Colorizer is Up and Running!'
+   - Use localhost (local-hosting) (https://127.0.0.1:5000) 
 1. Goto <code>chrome://extensions/</code> webpage, turn on developer mode, and click 'Load Unpacked'.
 2. Navigate to and select Frontend-Chrome folder. Manga Colorizer settings should open in a new tab.
 3. Paste the server URL, in the extension's 'API URL' field and press 'Test'.
