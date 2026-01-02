@@ -1,6 +1,18 @@
-| Before | After |
-|------|---------|
-| ![](Before_Colorisation.jpg) | ![](AfterColorisation.png) |
+<table>
+  <tr>
+    <th>Before</th>
+    <th>After</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Before_Colorisation.jpg" width="350" height="250" style="object-fit: cover;">
+    </td>
+    <td>
+      <img src="AfterColorisation.png" width="350" height="250" style="object-fit: cover;">
+    </td>
+  </tr>
+</table>
+
 
 # Manga-Colorizer
 Introducing Manga-Colorizer, a tool that brings your mangas to life.
