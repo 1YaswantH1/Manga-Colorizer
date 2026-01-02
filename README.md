@@ -1,7 +1,7 @@
 <table>
   <tr>
-    <td><img src="images/before.png" width="300"></td>
-    <td><img src="images/after.png" width="300"></td>
+    <td><img src="Before_Colorisation.jpg" width="300"></td>
+    <td><img src="AfterColorisation.png" width="300"></td>
   </tr>
 </table>
 
