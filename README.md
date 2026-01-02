@@ -1,3 +1,5 @@
+| Before | After |
+
 <table>
   <tr>
     <td><img src="Before_Colorisation.jpg" width="300"></td>
