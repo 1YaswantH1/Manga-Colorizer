@@ -1,3 +1,7 @@
+| Before | After |
+|------|-------|
+| ![](Before_Colorisation.jpg) | ![](AfterColorisation.png) |
+
 # Manga-Colorizer
 Introducing Manga-Colorizer, a tool that brings your mangas to life.
 
