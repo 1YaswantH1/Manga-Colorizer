@@ -1,5 +1,5 @@
 | Before | After |
-|------|-------|
+|------|---------|
 | ![](Before_Colorisation.jpg) | ![](AfterColorisation.png) |
 
 # Manga-Colorizer
@@ -14,12 +14,6 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 - [x] Organized caching into a dedicated folder for reuse.
 - [x] Options to display original, colorized version, or both.
 - [x] Force colorization. 
-
-## Notes:
-- Old legacy project can be found <a href="https://github.com/BinitDOX/Manga-Colorizer/tree/main">here</a>.
-- Follow any one of the server and one of client usage instructions.
-
-
 
 ## Server Usage Instructions | Local Hosting: 
 0. Local hosting is recommended if you have access to a cuda GPU.
@@ -111,19 +105,7 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 15. Unfortunately, only Step-8 has to be repeated at every chapter because of permission issues, so Kiwi Browser is recommended.
 
 
-## Client Usage Instructions | Android | Kiwi/Any-Chromium (\w extension):
-1. First on PC Chrome, go to <a href="chrome://extensions/">extension</a> settings and click 'Pack extension' on top-left.
-2. Click browse, then navigate and choose the Frontend-Chrome folder and click 'Pack extension'.
-3. This will create a 'Frontend-Chrome.crx' file. Move this file to your android device.
-4. Install Kiwi browser on android from google playstore.
-5. Open browser settings menu (3 dots), select 'Extensions', then select '+(from .zip / crx)' and browse for the 'Frontend-Chrome.crx' file.
-6. Toggle on the extension and accept the permissions.
-7. Follow Step-0 of 'Client Usage Instructions - PC - Chrome' **but use either Private IP or ngrokURL**.
-8. Open any black-and-white mange page.
-9. Tap settings menu (3 dots), scroll down, select the 'Manga-Colorizer' extension.
-10. Input the server URL in the 'API Base-URL'.
-11. Add the manga website in the list.
-12. Press 'Colorize!' and enjoy!.
+
 
 
 
