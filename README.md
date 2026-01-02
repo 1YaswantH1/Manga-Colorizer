@@ -15,7 +15,7 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 - [x] Options to display original, colorized version, or both.
 - [x] Force colorization. 
 
-## Server Usage Instructions | Local Hosting: 
+## Local Usage: 
 0. Local hosting is recommended if you have access to a cuda GPU.
 1. Clone or download this repository as .zip and extract. 
 2. Download the <a href="https://drive.google.com/file/d/1qmxUEKADkEM4iYLp1fpPLLKnfZ6tcF-t/view?usp=sharing" rel="nofollow">Generator</a> weights and move it to <code>Backend/networks</code> folder.
@@ -25,24 +25,6 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
    - For starting the server: <code>python app-stream.py</code>
    - Backend should be running on localhost (https://127.0.0.1:5000) and Private IP (https://x.x.x.x:5000)
 5. Next, follow any of the 'Client Usage Instructions'.
-
-
-## Server Usage Instructions | Online Hosting: 
-0. Online hosting is recommended if you don't have access to a cuda GPU or you do not want to keep your system/server on, while reading on a mobile.
-1. Make a <a href="https://www.kaggle.com/">kaggle</a> account and verify using phone to get ~30hrs of weekly GPU.
-2. Make an <a href="https://ngrok.com/">ngrok</a> account and get your auth token from <a href="https://dashboard.ngrok.com/get-started/your-authtoken">here</a>
-3. Go to <a href="https://www.kaggle.com/code/yeeandres/manga-colorizer-server-stream">this</a> notebook and click 'Copy & Edit'
-4. Set the accelerator as GPU P100 under notebook options if not already selected.
-5. Replace the your_ngrok_auth_token in '!ngrok config add-authtoken your_ngrok_auth_token' in the code with the auth-token in Step 3.
-6. Next choose 'Run All' from the menu to run the notebook.
-7. In a few minutes you should see some output from the last running line (!ngrok http 5000) with some urls.
-8. Click on the one which looks something like https://314-1342-142-43.ngrok-free.app.
-9. Alternatively, visit <a href="https://dashboard.ngrok.com/tunnels/agents">here</a> to get the running sessions.
-10. On the tab that opens, click visit site.
-11. You should see 'Manga Colorizer is Up and Running!'
-12. Now you can follow any of the 'Client Usage Instructions' below, including step 0, but with this API URL
-13. You may also now click 'Save Version' on the notebook, then 'Save and Run All (Compile)' to keep the notebook running (it will re-run) even after you turn off your system.
-14. After a few minutes, visit <a href="https://dashboard.ngrok.com/tunnels/agents">here</a> to get the running sessions and get the new API URL and use that for the client.
 
 
 ## Client Usage Instructions | PC | Firefox: 
@@ -85,24 +67,6 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 7. Click on the 'Manga Colorizer' extension to open its settings as a popup.
 8. Press the 'Add ...' button to add the site to the list of Manga Sites, so it automatically colors images from now on.
 9. Press 'Colorize!' and enjoy!.
-
-
-## Client Usage Instructions | Android | Firefox Nightly:
-1. First, goto 'Frontend-Firefox' folder and zip all the files.
-2. Select all the files, then right-click, Send to, Compressed (zip) folder.
-3. Rename this zip file to 'Frontend-Firefox.zip' and move it to your android device.
-4. Install Firefox Nightly browser on android from google playstore.
-5. Open settings, scroll down and select 'About Firefox Nightly'.
-6. Keep Tapping on Firefox logo, until the Debug menu is enabled.
-7. Go back and select Secret settings, and choose to install Add-on from file.
-8. Browse for the 'Frontend-Firefox.zip' file that you uploaded to you device.
-9. Follow Step-0 of 'Client Usage Instructions | PC | Firefox' **but use either Private IP or ngrokURL**.
-10. Open any black-and-white mange page.
-11. Tap settings menu (3 dots), select Add-ons, select the colorizer extension.
-12. Input the server URL in the 'API URL' field.
-13. Add the manga website in the list.
-14. Press 'Colorize!' and enjoy!.
-15. Unfortunately, only Step-8 has to be repeated at every chapter because of permission issues, so Kiwi Browser is recommended.
 
 
 
