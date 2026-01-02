@@ -1,13 +1,5 @@
 # Manga-Colorizer
-Introducing Manga-Colorizer, a tool that brings your mangas to life!
-
-
-## Demo Video - PC:
-[![DEMO VIDEO](https://github.com/user-attachments/assets/6737808a-8ad1-4dd3-b642-34c8020ebd98)](https://youtu.be/aD0jUb-vPOo)
-
-
-## Demo Video - Android:
-[DEMO VIDEO](https://drive.google.com/file/d/15Rw4aykO_7Gedj6sR50gAiIiaTjHLr6o/view?usp=sharing)
+Introducing Manga-Colorizer, a tool that brings your mangas to life.
 
 ## New Features:
 - [x] Now works seamlessly on any website.
@@ -130,9 +122,4 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life!
 12. Press 'Colorize!' and enjoy!.
 
 
-## Credits:
-- https://github.com/qweasdd/manga-colorization-v2 by <a href="https://github.com/qweasdd">qweasdd</a> for AI Model and Weights.
-- https://github.com/xiaogdgenuine/Manga-Colorization-FJ by <a href="https://github.com/xiaogdgenuine">xiaogdgenuine</a> for Upscaler integration.
-- https://github.com/xinntao/Real-ESRGAN by <a href="https://github.com/xinntao">xinntao</a> for the Upscaler (ESR-GAN).
-- https://github.com/vatavian/Manga-Colorizer fork by <a href="https://github.com/vatavian">vatavian</a> for any-site, on-the-fly, intelligent colorization, and multiple other direct contributions.
-- And, <a href="https://github.com/iG8R">iG8R</a> for testing and opening great issues that lead to this updated version.
+
