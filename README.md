@@ -34,22 +34,23 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 5. Next, follow any of the 'Client Usage Instructions'.
 
 
-## Client Usage Instructions | PC | Firefox: 
-0. Open the server URL:
-   - Use localhost (local-hosting) (https://127.0.0.1:5000) or,
-1. Open the firefox <a href="about:debugging#/runtime/this-firefox">debugging</a> page and click 'Load Temporary Add-on'.
-2. Navigate to the Frontend-Firefox directory and choose manifest.json.
-3. If the extension loads correctly, you will see it's settings page.
-4. Paste the server URL, in the extension's 'API URL' field and press 'Test'.
-5. If you see 'Manga Colorizer is Up and Running!', then its working!
-6. Close all these necessary tabs now and open a black-and-white manga.
-7. Open the Extensions menu (looks like a puzzle piece).
-8. Then right-click 'Manga Colorizer' and select 'Always allow on ...' also 'Pin to Toolbar'
-9. Click on the 'Manga Colorizer' extension to open its settings as a popup.
-10. Click the 'Colorize' button, that should appear next to 'Next chapter'.
-11. Press the 'Add ...' button to add the site to the list of Manga Sites, so it automatically colors images from now on.
-12. Press 'Colorize!' and enjoy!.
-13. These steps have to be repeated everytime firefox is started. 
+Client Usage Instructions | PC | Chrome/Brave/Any-Chromium:
+Open the server URL:
+Use localhost (local-hosting) (https://127.0.0.1:5000) or,
+Private IP (local-hosting) (Ex. https://x.x.x.x:5000) or,
+The ngrokURL (online-hosting) (Ex. https://314-1342-142-43.ngrok-free.app).
+It will show some certificate warning, as it is self-signed.
+Click 'Advanced' and click 'Proceed to x.x.x.x (unsafe)'.
+You should now see 'Manga Colorizer is Up and Running!'
+Goto chrome://extensions/ webpage, turn on developer mode, and click 'Load Unpacked'.
+Navigate to and select Frontend-Chrome folder. Manga Colorizer settings should open in a new tab.
+Paste the server URL, in the extension's 'API URL' field and press 'Test'.
+If you see 'Manga Colorizer is Up and Running!', then its working!
+Close all these necessary tabs now and open a black-and-white manga.
+Open the Extensions menu (looks like a puzzle piece) and click the pin next to 'Manga Colorizer'.
+Click on the 'Manga Colorizer' extension to open its settings as a popup.
+Press the 'Add ...' button to add the site to the list of Manga Sites, so it automatically colors images from now on.
+Press 'Colorize!' and enjoy!.
 
 
 
