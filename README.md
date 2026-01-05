@@ -49,7 +49,7 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 10. Click the 'Colorize' button, that should appear next to 'Next chapter'.
 11. Press the 'Add ...' button to add the site to the list of Manga Sites, so it automatically colors images from now on.
 12. Press 'Colorize!' and enjoy!.
-13. These steps have to be repeated everytime firefox is started.
+13. These steps have to be repeated everytime firefox is started. 
 
 
 
