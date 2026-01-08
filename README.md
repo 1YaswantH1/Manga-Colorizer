@@ -35,6 +35,7 @@ Introducing Manga-Colorizer, a tool that brings your mangas to life.
 
 
 Client Usage Instructions | PC | Chrome/Brave/Any-Chromium:
+
 Open the server URL:
 Use localhost (local-hosting) (https://127.0.0.1:5000) or,
 Private IP (local-hosting) (Ex. https://x.x.x.x:5000) or,
